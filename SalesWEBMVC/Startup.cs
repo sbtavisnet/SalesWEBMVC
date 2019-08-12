@@ -71,8 +71,6 @@ namespace SalesWEBMVC
             };
             app.UseRequestLocalization(localizationOptions);
 
-
-
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
